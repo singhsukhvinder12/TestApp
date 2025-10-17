@@ -17,6 +17,8 @@ coroutines = "1.7.3"
 retrofit = "2.9.0"
 appcompat = "1.6.1"
 material = "1.10.0"
+coroutinesTest = "1.7.3"
+mockk = "1.13.8"
 
 
 
@@ -46,7 +48,8 @@ material-design = { module = "com.google.android.material:material", version.ref
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
-
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutinesTest" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
